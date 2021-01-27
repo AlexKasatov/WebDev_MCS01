@@ -13,3 +13,31 @@ p {
 li {
     color: rgba(255, 0, 0, 0.5);
 }
+
+section {
+    color: blue;
+}
+
+.div-two {
+    color: rgb(75, 114, 94);
+}
+
+#section-id {
+    color :cyan;
+}
+
+footer div {
+    color: darkorange;
+}
+
+nav, h3 {
+    font-size: 40px;
+}
+
+.nav-class {
+    font-size: 90px;
+}
+
+footer .footer-h3 {
+    font-size: 100px;
+}
