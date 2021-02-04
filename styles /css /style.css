@@ -1,43 +1,44 @@
 h1 {
-    color: red;
+  color: red;
 }
 
 div {
-    color: #14bb14;
+  color: #14bb14;
 }
 
 p {
-    color: rgb(200, 25, 12)
+  color: rgb(200, 25, 12);
 }
 
 li {
-    color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0, 0.5);
 }
 
 section {
-    color: blue;
+  color: blue;
 }
 
 .div-two {
-    color: rgb(75, 114, 94);
+  color: rgb(75, 114, 94);
 }
 
 #section-id {
-    color :cyan;
+  color: cyan;
 }
 
 footer div {
-    color: darkorange;
+  color: darkorange;
 }
 
-nav, h3 {
-    font-size: 40px;
+nav,
+h3 {
+  font-size: 40px;
 }
 
 .nav-class {
-    font-size: 90px;
+  font-size: 90px;
 }
 
 footer .footer-h3 {
-    font-size: 100px;
+  font-size: 100px;
 }
