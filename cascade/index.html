@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style/style.css" />
     <title>Document</title>
+    <style>
+        .page {
+            font-family: sans-serif;
+            color: green;
+            color: black;
+        }
+        .page h1 {
+            color:red;
+        }
+
+    </style>
   </head>
+  <div class="page">
   <body>
     <div>
-        <header></header>
+        <header>
+            <div> 
+                <!-- тут див является родителем всех в нем элементов -->
+                <h1>hello!</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel accusamus iste non laborum illum corporis cumque possimus dolore, voluptates perferendis blanditiis culpa mollitia magni nostrum obcaecati consequatur ipsa delectus similique.</p>
+                <a href="">Link</a>
+                <!-- h1 p a сиблингсы - братья и сестры дива -->
+            </div>
+        </header>
         <main></main>
         <footer></footer>
     </div>
