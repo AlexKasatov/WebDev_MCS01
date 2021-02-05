@@ -1,0 +1,9 @@
+.bordered {
+  height: 500px;
+  width: 500px;
+  border-width: 2px;
+}
+
+h1 {
+  font-size: 200px;
+}
