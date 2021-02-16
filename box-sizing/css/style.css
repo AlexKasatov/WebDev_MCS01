@@ -1,19 +1,35 @@
 @import url(reset.css);
 
-.outer {
+/* MARGIN */
+
+/* .outer {
   width: 600px;
   height: 600px;
   border: 5px solid red;
+  margin: 20px auto;
 }
 
 .inner {
   width: 100px;
   height: 100px;
   background-color: blue;
-  margin: 20px 40px;
+  /* margin: auto; */
+  /* margin: 50px; */
+  /* margin: 20px 40px; */
   /* margin: 20px 30px 40px; */
   /* margin: 20px 30px 40px; */
   /* margin-top: 50px;
   margin-left: 30px;
   margin-bottom: 50px; */
-}
+/* } 
+
+/* PADDING */
+
+/* .inner {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    padding: 50px 20px;
+} */
+
