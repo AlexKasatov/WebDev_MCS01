@@ -38,7 +38,7 @@
 /* 1) Блочные - начинаются всегда с новой стройки */
 
 .wrap {
-    font-size: 0px;
+  font-size: 0px;
 }
 
 div {
@@ -76,7 +76,6 @@ a {
   margin: auto;
 }
 
-
 .test {
-    display: ;
+  display: ;
 }
