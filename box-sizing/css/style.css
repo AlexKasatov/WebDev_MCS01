@@ -14,11 +14,11 @@
   height: 100px;
   background-color: blue;
   /* margin: auto; */
-  /* margin: 50px; */
-  /* margin: 20px 40px; */
-  /* margin: 20px 30px 40px; */
-  /* margin: 20px 30px 40px; */
-  /* margin-top: 50px;
+/* margin: 50px; */
+/* margin: 20px 40px; */
+/* margin: 20px 30px 40px; */
+/* margin: 20px 30px 40px; */
+/* margin-top: 50px;
   margin-left: 30px;
   margin-bottom: 50px; */
 /* } 
@@ -33,3 +33,50 @@
     padding: 50px 20px;
 } */
 
+/* Типы Элементов */
+
+/* 1) Блочные - начинаются всегда с новой стройки */
+
+.wrap {
+    font-size: 0px;
+}
+
+div {
+  display: inline-block;
+  width: 200px;
+  color: white;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.one {
+  height: 200px;
+  background-color: black;
+}
+
+.two {
+  height: 200px;
+  background-color: green;
+}
+
+/* 2) Линейные ( ссылки) */
+
+/* 3) Линейно-блочные, чувствительные к высоте и ширине */
+
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+a {
+  display: block;
+  height: 200px;
+  width: 100px;
+  margin: auto;
+}
+
+
+.test {
+    display: ;
+}
