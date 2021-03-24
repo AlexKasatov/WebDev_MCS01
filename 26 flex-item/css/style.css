@@ -10,17 +10,21 @@ body {
   background-color: blue;
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: stretch;
   align-content: flex-end;
 }
+
+
 
 .flex-item-one {
   height: 100px;
   width: 400px;
   background-color: orange;
   order: 1;
+  flex-grow: 0;
+  flex-shrink: 2;
 }
 
 .flex-item-two {
@@ -28,6 +32,7 @@ body {
   width: 400px;
   background-color: orange;
   order: 2;
+  flex-grow: 0;
 }
 
 .flex-item-three {

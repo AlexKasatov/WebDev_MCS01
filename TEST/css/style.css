@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+body {
+  background-color: burlywood;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+
+.elements {
+  border: 5px red solid;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  width: 200px;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+}

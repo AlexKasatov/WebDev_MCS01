@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+/* .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.5em;
+}
+
+.grid > * {
+  background-color: darkgray;
+  color: white;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+
+.test > * {
+  font-size: 200px;
+  margin-top: 100px;
+}
+
+.heading {
+  background-color: blue;
+} */
+
+div#one{
+    display: flex;
+    width: 300px;
+}
+
+div#two {
+    display: inline-flex;
+}
+
+div {
+    border: 1px dashed;
+    background: silver;
+    width: 300px;
+    height: 100%;
+    font-size: 40px;
+
+}
+
+div > * {
+    border: 1px solid; 
+    background-color: #aaaaaa;
+}
+div p {
+    margin: 0;
+}
+
+
+
+nav {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    justify-content: flex-end;
+    
+}
+h1 {
+    margin-right: 700px;
+    order: 1;
+    display;
+}
+
+a {
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0 ;
+    background-color: #ddaa00;
+    color: white;
+}
+
+a:hover, a:focus, a:active {
+    background-color: #ffcc22;
+    color: black;
+}
