@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+.columns1 {
+  min-height: 500px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.column-two {
+  width: 240px;
+  height: 720px;
+  background-color: orange;
+}
+
+.column-one {
+  height: 720px;
+  background-color: navy;
+  width: calc(100% - 240px);
+}
+
+.columns2 {
+  margin: 50px auto;
+  min-height: 500px;
+  max-width: 1020px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1 {
+  margin: auto;
+  width: calc((100% - 80px) / 3);
+  height: 100px;
+  background-color: red;
+}

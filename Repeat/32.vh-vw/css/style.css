@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+
+.vh {
+    /* margin: auto; */
+    height: 30vw;
+    width: 70vh;
+    background-color: black;
+}
+
+.vminvmax {
+    height: 30vmax;
+    width: 40vmin;
+    background-color: green;
+}x  

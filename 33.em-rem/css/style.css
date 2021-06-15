@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+html {
+  font-size: 30px;
+}
+
+.oter {
+  font-size: 1rem;
+}
+
+.oter h1 {
+  font-size: 2em;
+  letter-spacing: 0.6em;
+}

@@ -1,0 +1,32 @@
+@import url(reset.css);
+
+.column {
+  min-height: 500px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.two {
+  width: 240px;
+  height: 720px;
+  background-color: blue;
+}
+
+.one {
+  height: 1020px;
+  background-color: orange;
+  width: calc(100% - 240px);
+}
+
+.column-2 {
+  min-height: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clm {
+  height: 100px;
+  width: calc((100% - 80px) / 3);
+  background-color: red;
+}
